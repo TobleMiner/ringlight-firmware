@@ -188,11 +188,11 @@ int main(void) {
 		velocity_update();
 
 		if (velocity_both_pressed(VELOCITY_BRIGHTNESS)) {
-			velocity_set_value(VELOCITY_BRIGHTNESS, 5);
+			velocity_set_value(VELOCITY_BRIGHTNESS, 50);
 		}
 
 		if (velocity_both_pressed(VELOCITY_TEMPERATURE)) {
-			velocity_set_value(VELOCITY_TEMPERATURE, 50);
+			velocity_set_value(VELOCITY_TEMPERATURE, 500);
 		}
 
 		brightness = velocity_get_value(VELOCITY_BRIGHTNESS);
